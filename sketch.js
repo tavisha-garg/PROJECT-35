@@ -60,7 +60,7 @@ function draw() {
 }
 
  function updateHeight(x,y){
-   database.ref('balloon/Height').set({
+   database.ref('balloon/height').set({
      'x': height.x + x ,
      'y': height.y + y
    })
@@ -74,8 +74,8 @@ function draw() {
 // }
 
  function readHeight(data){
-  height = data.val();
-  balloon.x = height.x;
+   height = data.val();
+   balloon.x = height.x;
   balloon.y = height.y;
  }
 
@@ -83,10 +83,10 @@ function draw() {
 //   height = data.val();
 // }
 
- //function readHeight(){
- // height = val();
- // balloon.x = height.x;
- // balloon.y = height.y;
+// function readHeight(){
+//   height = val();
+//   balloon.x = height.x;
+//   balloon.y = height.y;
 // }
 
 function showError(){
