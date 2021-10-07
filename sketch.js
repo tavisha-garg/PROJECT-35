@@ -3,11 +3,11 @@ var database;
 var height;
 
 function preload(){
-   bg =loadImage("Images/cityImage.png");
-   balloonImage1=loadAnimation("Images/HotAirBallon01.png");
-   balloonImage2=loadAnimation("Images/HotAirBallon01.png","Images/HotAirBallon01.png",
-   "Images/HotAirBallon01.png","Images/HotAirBallon02.png","Images/HotAirBallon02.png",
-   "Images/HotAirBallon02.png","Images/HotAirBallon03.png","Images/HotAirBallon03.png","Images/HotAirBallon03.png");
+   bg =loadImage("cityImage.png");
+   balloonImage1=loadAnimation("HotAirBallon01.png");
+   balloonImage2=loadAnimation("HotAirBallon01.png","HotAirBallon01.png",
+   "HotAirBallon01.png","HotAirBallon02.png","HotAirBallon02.png",
+   "HotAirBallon02.png","HotAirBallon03.png","HotAirBallon03.png","HotAirBallon03.png");
   }
 
 //Function to set initial environment
